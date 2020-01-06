@@ -1,6 +1,7 @@
 import React from 'react';
 import Avatar from './Avatar';
-import AboutMePts from './AboutMePts'
+import AboutMePts from './AboutMePts';
+import ProjectsByMe from './ProjectsByMe';
 
 class Content extends React.Component {
 	
@@ -14,6 +15,7 @@ class Content extends React.Component {
 					<div id='about_me_pts'><AboutMePts /></div>				
 				</div>
 			</div>
+			<ProjectsByMe />
 		</div>
 		);
 	}

@@ -4,6 +4,8 @@ import './index.css';
 import Navbar from './Navbar';
 import Content from './Content';
 import Form from './Form';
+import { Provider } from 'react-redux';
+import {store} from './ReduxStuff';
 
 class App extends React.Component {
 	
@@ -18,5 +20,4 @@ class App extends React.Component {
 
 }
 
-ReactDOM.render(<App />, document.getElementsByTagName('body')[0]);
-ReactDOM.render(<Form />, document.getElementsByTagName('footer')[0]);
+ReactDOM.render(<Provider store={store}><App /></Provider>, document.getElementsByTagName('body')[0]);
