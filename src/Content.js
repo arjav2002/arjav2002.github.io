@@ -2,6 +2,7 @@ import React from 'react';
 import Avatar from './Avatar';
 import AboutMePts from './AboutMePts';
 import ProjectsByMe from './ProjectsByMe';
+import Form from './Form';
 
 class Content extends React.Component {
 	
@@ -16,6 +17,7 @@ class Content extends React.Component {
 				</div>
 			</div>
 			<ProjectsByMe />
+			<Form />
 		</div>
 		);
 	}

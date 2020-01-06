@@ -64,10 +64,12 @@ body {
 	font-family: 'Sans Serif';
 	background-color: black;
 	margin-left: auto;
+	color: white;
 }
 
 #scroll_to_projects_link:hover {
 	background-color: white;
+	color: black;
 }
 
 #nav_fil {
@@ -112,10 +114,6 @@ body {
 
 li {
 	margin: 10px 0;
-}
-
-#form_div {
-	
 }
 
 #projects_by_me {
@@ -253,6 +251,16 @@ li {
 	align-items: center;	
 	-webkit-align-items: center;
 }
+
+
+#form_div {
+	background-color: white;
+	margin: 0;
+	height: 50%;
+	width: 96%;
+	padding: 2%;
+}
+
 
 .list_img_div {
 	height: 90%;

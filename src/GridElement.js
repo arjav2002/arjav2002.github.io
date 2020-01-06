@@ -17,7 +17,7 @@ class GridElement extends React.Component {
 			<a 	style={{color: linkColor}}
 				onMouseEnter={() => { this.setState({link: true}); } }
 				onMouseLeave={() => { this.setState({link: false}); } }
-				className='proj_link' target='_blank' href={this.props.project.link}>{this.props.project.name}
+				className='proj_link' rel='noopener noreferrer' target='_blank' href={this.props.project.link}>{this.props.project.name}
 			</a>
 			<div className='proj_tags'>{tag_divs}</div>
 		</div>				
