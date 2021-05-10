@@ -4,4 +4,4 @@ export const proj_imgs = ['https://i.imgur.com/jo2QYHf.png', 'https://i.imgur.co
 export const proj_names = ['Hunt for the Lost Mojo', 'Immortal Kombat', 'Platformer Game', 'Front End Web Projects', 'Whack A Mole', 'Garg OS'];
 export const proj_tags = [['Python', 'Pygame'], ['Java', 'Networking'], ['Java', 'AWT', 'Swing'], ['HTML', 'CSS', 'JS'], ['Android'], ['C', 'x86 ASM']];
 export const proj_links = ['https://github.com/arjav2002/Hunt-Mojo', 'https://github.com/arjav2002/Immortal-Kombat', 'https://github.com/arjav2002/Platformer-Game', 'https://codepen.io/agprg', 'https://github.com/arjav2002/whack-a-mole', 'https://github.com/arjav2002/Garg-OS'];
-export const button_icons = ['fas fa-th-large icon-large', 'fas fa-list icon-large'];
+export const button_icons = ['fas fa-th-large', 'fas fa-list'];
